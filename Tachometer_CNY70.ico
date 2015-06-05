@@ -14,8 +14,8 @@
   For this application it is important that the sensor to target distance
   be fixed, that the target has strong reflective qualities, and that
   it reflect strongly to the CNY70 during only part of each revolution.
-  White paper can be glued on a dark nonreflective surface works well.
-  See the photos in the Wiki for how this might be done.
+  White paper glued on a dark nonreflective surface works well. See the
+  photos in the Wiki for how this might be done.
   
   The sketch was developed for the Texas Instruments MSP430F5529
   LaunchPad using Energia but should work with most LaunchPads.  It
@@ -125,8 +125,8 @@ void loop()
     }
   }
   if (thisReading < lowLevel)                   // When the edge first falls below the 
-  {                                             
-    if (fallen == false)                        // low level threshold, make fallen true
+  {                                             // low level threshold, make fallen true                          
+    if (fallen == false)                        
     {
       fallen = true;
     }
