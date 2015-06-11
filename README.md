@@ -3,4 +3,4 @@ Demonstration of Addicore CNY70 Reflective Sensor being used as a tachometer.  W
 
 Ideas for further development:
 1) Try using a transistor to amplify and better differentiate the output / turn it into a binary output
-2) Try using two of them as an encoder
+2) Try using two of them in an encoder with 90 degree out of phase targets
